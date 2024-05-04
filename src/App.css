@@ -1,0 +1,21 @@
+@font-face {
+	font-family: UbuntuMono;
+	src: url("./assets/fonts/UbuntuMono-Regular.ttf");
+	font-weight: 500;
+}
+@font-face {
+	font-family: UbuntuMono;
+	src: url("./assets/fonts/UbuntuMono-Bold.ttf");
+	font-weight: 600;
+}
+*{
+	font-family: UbuntuMono, 'Courier New', Courier, monospace;
+}
+.app{
+	display: flex;
+	flex-direction: column;
+	gap: 64px;
+}
+.block-title{
+	text-align: center;
+}
