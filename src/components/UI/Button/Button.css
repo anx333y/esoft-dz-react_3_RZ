@@ -1,0 +1,10 @@
+.def-button{
+	background-color: aqua;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 8px;
+}
+.def-button:hover{
+	cursor: pointer;
+	background-color: rgb(9, 210, 210);
+}

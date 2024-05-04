@@ -1,0 +1,25 @@
+.user-card{
+	display: flex;
+	flex-direction: column;
+	background-color: aquamarine;
+	border-radius: 8px;
+	padding: 20px;
+	width: calc(33.33% - 16px * 2 / 3 - 40px);
+}
+.user-card__info{
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	gap: 4px;
+}
+.user-card__info__item{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.user-card__info__item__info{
+	font-style: italic;
+}
